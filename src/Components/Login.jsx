@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import  './login.css';
-import "./fixed.css"
+import "./fixed.css";
+import "./login.css";
 
 const Login = () => {
   return (
@@ -13,9 +13,9 @@ const Login = () => {
         <body data-spy="scoll" data-target="#navbarResponsive">
           <div id="home">
             <nav className="navbar navbar-expand-md navbar-dark fixed-top">
-              <a className="navbar-brand" href="">
+              <Link className="navbar-brand" href="">
                 <img src="img/download3.png" alt="logo"></img>
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -27,24 +27,24 @@ const Login = () => {
               <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <a class="nav-link">
+                    <Link class="nav-link">
                       <Link to="./">Home</Link>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link">
+                    <Link className="nav-link">
                       <Link to="./startups">Startups</Link>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link">
+                    <Link className="nav-link">
                       <Link to="./register">Register</Link>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link">
+                    <Link className="nav-link">
                       <Link to="./login">Login</Link>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -86,18 +86,18 @@ const Login = () => {
 
               <div className="row col-4 ml-2 mt-2 justify-content-center">
                 <div className="d-inline-block bg-muted mx-2">
-                  <a href="" target="blank">
+                  <Link href="" target="blank">
                     <i className="fab fa-facebook-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i className="fab fa-twitter-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i class="fab fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

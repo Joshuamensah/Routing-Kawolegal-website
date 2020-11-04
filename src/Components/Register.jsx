@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Register.css';
 import "./fixed.css"
+import './Register.css';
 
 const Register = () => {
   return (
@@ -13,9 +13,9 @@ const Register = () => {
         <body data-spy="scoll" data-target="#navbarResponsive">
           <div id="home">
             <nav className="navbar navbar-expand-md navbar-dark fixed-top">
-              <a className="navbar-brand" href="">
+              <Link className="navbar-brand" href="">
                 <img src="img/download3.png" alt="logo"></img>
-              </a>
+              </Link>
               <button
                 className="navbar-toggler"
                 type="button"
@@ -27,24 +27,24 @@ const Register = () => {
               <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ml-auto">
                   <li className="nav-item">
-                    <a class="nav-link" ><Link to="./">Home</Link>
+                    <Link class="nav-link" ><Link to="./">Home</Link>
                     
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" ><Link to="./startups">Startups</Link>
+                    <Link className="nav-link" ><Link to="./startups">Startups</Link>
                       
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link"><Link to="./register">Register</Link>
+                    <Link className="nav-link"><Link to="./register">Register</Link>
                       
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" ><Link to="./login">Login</Link>
+                    <Link className="nav-link" ><Link to="./login">Login</Link>
                     
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -116,18 +116,18 @@ const Register = () => {
 
               <div class="row col-4 ml-2 mt-2 justify-content-center">
                 <div class="d-inline-block bg-muted mx-2">
-                  <a href="" target="blank">
+                  <Link href="" target="blank">
                     <i class="fab fa-facebook-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i class="fab fa-twitter-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i class="fab fa-instagram"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i class="fab fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

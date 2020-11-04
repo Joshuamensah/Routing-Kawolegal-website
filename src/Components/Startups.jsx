@@ -1,24 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './Startups.css'
-import './fixed.css';
+import "./fixed.css";
+import "./Startups.css";
 
 const Startups = () => {
   return (
     <div>
       <html lang="en">
-        <head>
-          
-        </head>
+        <head></head>
 
         <body>
           <div className="container-fluid">
             <div className="row">
               <nav className="navbar navbar-expand-md navbar-light fixed-top">
-                <a className="navbar-brand" href="">
+                <Link className="navbar-brand" href="">
                   <img src="img/download3.png" alt="logo" />
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -30,24 +28,24 @@ const Startups = () => {
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                   <ul className="navbar-nav ml-auto">
                     <li className="nav-item">
-                      <a class="nav-link">
+                      <Link class="nav-link">
                         <Link to="./">Home</Link>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link">
+                      <Link className="nav-link">
                         <Link to="./startups">Startups</Link>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link">
+                      <Link className="nav-link">
                         <Link to="./register">Register</Link>
-                      </a>
+                      </Link>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link">
+                      <Link className="nav-link">
                         <Link to="./login">Login</Link>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -79,18 +77,18 @@ const Startups = () => {
                   ></img>
                 </div>
                 <div className="container col-9 mt-3">
-                  <a href="#" className="display-3">
+                  <Link href="#" className="display-3">
                     <h2>Think and Zoom</h2>
-                  </a>
+                  </Link>
                   <p className="startup-text">
                     Providing Solutions for the visually impaired,such as
                     mind-controlled zooming,and wearable controlled zooming.{" "}
                   </p>
-                  <a href="#">
+                  <Link href="#">
                     <button className="btn btn-sm border" role="button">
                       See full details
                     </button>
-                  </a>
+                  </Link>
                 </div>
                 <hr></hr>
                 <div className="row col-3">
@@ -109,11 +107,11 @@ const Startups = () => {
                     work experience,and land well paying jobs through
                     world-class up-skilling course and virtual internships.
                   </p>
-                  <a href="#">
+                  <Link href="#">
                     <button className="btn btn-sm border" role="button">
                       See full details
                     </button>
-                  </a>
+                  </Link>
                 </div>
                 <hr></hr>
                 <div className="row col-3">
@@ -124,18 +122,18 @@ const Startups = () => {
                   ></img>
                 </div>
                 <div className="container col-9 mt-3">
-                  <a href="#" className="display-3">
+                  <Link href="#" className="display-3">
                     <h2>Seekjob Academy</h2>
-                  </a>
+                  </Link>
                   <p className="startup-text">
                     Trains world class software developers in Ghana and matches
                     them to employent
                   </p>
-                  <a href="#">
+                  <Link href="#">
                     <button className="btn btn-sm border" role="button">
                       See full details
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -151,18 +149,18 @@ const Startups = () => {
 
               <div className="row col-4 ml-2 mt-2 justify-content-center">
                 <div className="d-inline-block bg-muted mx-2">
-                  <a href="" target="blank">
+                  <Link href="" target="blank">
                     <i className="fab fa-facebook-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i className="fab fa-twitter-square"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i className="fab fa-instagram"></i>
-                  </a>
-                  <a href="" target="blank">
+                  </Link>
+                  <Link href="" target="blank">
                     <i className="fab fa-linkedin"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

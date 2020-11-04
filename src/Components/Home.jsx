@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './fixed.css'
-import './style.css'
+import "./fixed.css";
+import "./style.css";
 const Home = () => {
   return (
     <div>
@@ -12,9 +13,9 @@ const Home = () => {
           <div className="container-fluid">
             <div className="row">
               <nav className="navbar navbar-expand-md navbar-light fixed-top">
-                <a className="navbar-brand" >
+                <Link className="navbar-brand">
                   <img src="img/download3.png" alt="logo" />
-                </a>
+                </Link>
                 <button
                   className="navbar-toggler"
                   type="button"
@@ -25,16 +26,26 @@ const Home = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarResponsive">
                   <ul className="navbar-nav ml-auto">
-                  <li class="nav-item"><a class="nav-link" href="./">Home</a></li>
-                  <li class="nav-item">
-							<a class="nav-link" href="./startups.jsx">Startups</a>
-						</li>
-            <li class="nav-item">
-							<a class="nav-link" href="./register.jsx">Register</a>
-						</li>
-            <li class="nav-item">
-							<a class="nav-link" href="./login">Login</a>
-						</li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/"><Link to="./">Home</Link>
+                        
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/startups."><Link to="./startups">Startups</Link>
+                        
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/register"><Link to="./register">Register</Link>
+                        
+                      </Link>
+                    </li>
+                    <li className="nav-item">
+                      <Link className="nav-link" to="/login"><Link to="./login">Login</Link>
+                        
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               </nav>
@@ -52,12 +63,9 @@ const Home = () => {
                   A collaborative ecosystem for problem solvers and support for
                   Startups
                 </h3>
-                <a
-                  className="btn btn-outline-light btn-lg"
-                  href="./Register"
-                >
+                <Link className="btn btn-outline-light btn-lg" to="./register">
                   Register Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,18 +80,18 @@ const Home = () => {
               <div className="row col-4 ml-2 mt-2">
                 <div className="row justify-content-center">
                   <div className="d-inline-block bg-muted mx-2">
-                    <a href="" target="blank">
+                    <Link href="" target="blank">
                       <i className="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="" target="blank">
+                    </Link>
+                    <Link href="" target="blank">
                       <i className="fab fa-twitter-square"></i>
-                    </a>
-                    <a href="" target="blank">
+                    </Link>
+                    <Link href="" target="blank">
                       <i className="fab fa-instagram"></i>
-                    </a>
-                    <a href="" target="blank">
+                    </Link>
+                    <Link href="" target="blank">
                       <i className="fab fa-linkedin"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
