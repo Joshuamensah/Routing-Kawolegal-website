@@ -85,7 +85,7 @@ const Startups = () => {
                     mind-controlled zooming,and wearable controlled zooming.{" "}
                   </p>
                   <Link href="#">
-                    <button className="btn btn-sm border" role="button">
+                    <button className="btn btn-sm border" >
                       See full details
                     </button>
                   </Link>
@@ -99,7 +99,7 @@ const Startups = () => {
                   ></img>
                 </div>
                 <div className="container col-9 mt-3">
-                  <a href="#" className="display-3">
+                  <a href="www.facebook.com" className="display-3">
                     <h2>Slatecube</h2>
                   </a>
                   <p className="startup-text">
@@ -108,7 +108,7 @@ const Startups = () => {
                     world-class up-skilling course and virtual internships.
                   </p>
                   <Link href="#">
-                    <button className="btn btn-sm border" role="button">
+                    <button className="btn btn-sm border" >
                       See full details
                     </button>
                   </Link>
@@ -130,7 +130,7 @@ const Startups = () => {
                     them to employent
                   </p>
                   <Link href="#">
-                    <button className="btn btn-sm border" role="button">
+                    <button className="btn btn-sm border" >
                       See full details
                     </button>
                   </Link>

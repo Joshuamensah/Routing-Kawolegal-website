@@ -70,8 +70,8 @@ const Login = () => {
                   placeholder="Password"
                 ></input>
                 <br></br>
-                <button className="btn btn-primary" role="button">
-                  Sign up
+                <button className="btn btn-primary" ><Link to="./register">Sign up</Link>
+                  
                 </button>
               </form>
             </div>

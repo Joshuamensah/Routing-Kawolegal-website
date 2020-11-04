@@ -100,7 +100,7 @@ const Register = () => {
                     placeholder="confirm Password"
                   ></input>
                 </div>
-                <button type="submit" className="btn btn-primary" role="button">
+                <button type="submit" className="btn btn-primary" >
                   SIGN UP
                 </button>
               </form>
