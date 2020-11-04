@@ -54,7 +54,7 @@ const Home = () => {
             <div>
               <div className="landing">
                 <div className="home-wrap">
-                  <div className="home-inner"></div>
+                  <div className="home-inner" height="500px"></div>
                 </div>
               </div>
               <div className="caption text-center">
