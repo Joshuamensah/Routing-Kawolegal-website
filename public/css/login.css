@@ -1,0 +1,46 @@
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background:brown;
+}
+.navbar-brand img {
+	height: 4rem;
+}
+.navbar-nav li {
+    padding-right: 0.7rem;
+}
+
+.row{
+	margin-top: 90px;
+}
+
+.close {
+	height: 30px;
+}
+
+
+
+
+
+
+.footer {
+	background-color: brown;
+	color: white;	
+}
+
+
+.footer svg.svg-inline--fa{
+	font-size: 2rem;	
+}
+
+.footer svg.svg-inline--fa:hover {
+	color: #1ebba3;
+}
+
+.footer a {
+	color: white;
+}
+
+

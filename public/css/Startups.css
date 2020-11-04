@@ -1,0 +1,59 @@
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	background:brown;
+}
+
+.navbar-brand img {
+	height: 4rem;
+}
+.navbar-nav li {
+	padding-right: 0.7rem;
+}
+
+
+.row2 {
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+
+.mt-5, .my-5 {
+    margin-top: 0rem!important;
+}
+
+mt-4, .my-4 {
+    margin-top: 1rem !important;
+}
+
+
+
+.footer {
+	background-color: brown;
+	color: white;	
+	margin-top: 100px;
+}
+
+
+.footer svg.svg-inline--fa{
+	font-size: 2rem;	
+}
+
+.footer svg.svg-inline--fa:hover {
+	color: #1ebba3;
+}
+
+.footer a {
+	color: white;
+}
+
+
+
+
+
+
+
+
